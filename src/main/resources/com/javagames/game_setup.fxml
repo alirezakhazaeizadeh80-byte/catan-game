@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javagames.GameSetupController">
+   <children>
+      <VBox alignment="CENTER" fillWidth="false" layoutX="89.0" layoutY="28.0" prefHeight="580.0" prefWidth="800.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="511.0" prefWidth="800.0" spacing="30.0">
+               <children>
+                  <Label contentDisplay="TOP" prefHeight="34.0" prefWidth="399.0" text="SILICON VALLEY: THE TECH CARTEL">
+                     <font>
+                        <Font name="System Bold" size="23.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="Welcome, CEOs. Prepare to dominate the valley">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="50.0" />
+                     </VBox.margin>
+                  </Label>
+                  <ComboBox fx:id="playerCountComboBox" prefHeight="0.0" prefWidth="150.0" promptText="Select Players Count" />
+                  <Button fx:id="startGameButton" mnemonicParsing="false" text="Start">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <Label text="Initialize System Setup" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
